@@ -1,2 +1,2 @@
 # PediatricSepsisDatachallenge2024
-Code for PediatricSepsisDatachallenge2024
+Sample Submission Code for PediatricSepsisDatachallenge2024
