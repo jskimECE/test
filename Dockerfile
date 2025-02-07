@@ -14,5 +14,5 @@ RUN pip3 install -r requirements.txt
 RUN mkdir -p model test_outputs
 
 
-# Set the command to train and run the model
-CMD ["sh", "-c", "python3 train_model.py SyntheticData_Training.csv model && python3 run_model.py model test_data.csv test_outputs"]
+# # Set the command to train and run the model
+# CMD ["sh", "-c", "python3 train_model.py SyntheticData_Training.csv model && python3 run_model.py model test_data.csv test_outputs"]
