@@ -8,10 +8,7 @@ WORKDIR /challenge
 ## Install your dependencies here using apt install, etc.
 
 ## Include the following line if you have a requirements.txt file.
-RUN pip3 install -r requirements.txt
-
-# Ensure necessary directories exist
-RUN mkdir -p model test_outputs
+RUN pip install -r requirements.txt
 
 
 # # Set the command to train and run the model
