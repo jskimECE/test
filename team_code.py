@@ -91,28 +91,3 @@ def run_challenge_model(model, data_folder, verbose):
     return patient_ids, prediction_binary, prediction_probability
 
 
-################################################################################
-#
-# Optional functions. You can change or remove these functions and/or add new functions.
-#
-################################################################################
-
-# Save your trained model.
-def save_challenge_model(model_folder, imputer, prediction_model):
-    d = {'imputer': imputer, 'prediction_model': prediction_model}
-    filename = os.path.join(model_folder, 'model.sav')
-    joblib.dump(d, filename, protocol=0)
-
-
-!/usr/bin/env python
-
-Edit this script to add your team's code. Some functions are *required*, but you can edit most parts of the required functions,
-change or remove non-required functions, and add your own functions.
-
-###############################################################################
-
-Optional libraries and functions. You can change or remove them.
-
-###############################################################################
-
-
